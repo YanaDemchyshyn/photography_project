@@ -15,6 +15,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .titles h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 5.3vw;
@@ -53,6 +54,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .titles button:hover {
 background-color: #b6b4b4;
 border: #b6b4b4;

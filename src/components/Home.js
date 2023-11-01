@@ -8,15 +8,15 @@ export default function Home() {
             <div className="main-part">
                 <div className="photo">
                     <img src={main} alt="main" className="homepage-photo img-fluid"></img>
-                <div className="titles">
-                    <div className="title-name">SHELLEY WHITE</div>
-                    <h1>PHOTOGRAPHY</h1>
-                    <div className="about-title">
-                    <div className="title-info">Nisl faucibus quis urna nibh ut amet. Diam suscipit </div>
-                    <div className="title-info-two"> pretium massa, sollicitudin in risus in. Sagittis.</div>
+                    <div className="titles">
+                        <div className="title-name">SHELLEY WHITE</div>
+                        <h1>PHOTOGRAPHY</h1>
+                        <div className="about-title">
+                            <div className="title-info">Nisl faucibus quis urna nibh ut amet. Diam suscipit </div>
+                            <div className="title-info-two"> pretium massa, sollicitudin in risus in. Sagittis.</div>
+                        </div>
+                        <button type="button" className="btn">GET STARTED</button>
                     </div>
-                    <button type="button" className="btn">GET STARTED</button>
-                </div>
                 </div>
             </div>
         </div>
