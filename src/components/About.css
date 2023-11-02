@@ -1,0 +1,130 @@
+.About-me {
+    background-color: #1b1b1b;
+    padding-top: 30px;
+}
+
+.info-part {
+    margin: 40px 0 0 15px;
+    max-width: 550px;
+}
+
+.aboutme-title {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F65282;
+    letter-spacing: 0.2cqmax;
+    margin-bottom:20px;
+}
+
+.info-part h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.25cqmax;
+    margin-bottom:20px;
+}
+
+.info-part p {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.1cqmax;
+    margin-bottom: 55px;
+}
+
+.about-social {
+    margin-bottom: 55px;
+}
+
+.about-social-link {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 25px ;
+}
+
+.second-title {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F65282;
+    letter-spacing: 0.2cqmax;
+    margin-bottom: 20px;
+}
+
+.camera-info {
+    margin-bottom:50px;
+    padding: 1em 1.2em 1em;
+    background-color: #2D2727;
+    max-width: 450px;
+    ;
+}
+
+.camera-info span {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.1cqmax;
+}
+
+.info-part button {
+    background-color: #FFFFFF;
+    color:#272142;
+    padding: 1em 3.5em 1.1em;
+    border-radius: 50px;
+    border: #FFFFFF;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.info-part button:hover {
+    background-color: #b6b4b4;
+    border: #b6b4b4;
+}
+
+.about-photo {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+
+@media (max-width:780px) {
+    .about-photo {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+    }
+    .about-items {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0 !important;
+    }
+    .info-part {
+        text-align: center;
+    }
+    .info-part h1 {
+        font-size: 50px;
+    }
+    .info-part p {
+        font-size: 13px;
+    }
+    .camera-info {
+        margin-bottom: 15px;
+    }
+    .camera-info span {
+        font-size: 12px;
+    }
+    .info-part button {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:480px) {
+    .camera-info {
+        background-color: transparent;
+        padding: auto;
+    }
+    
+}
