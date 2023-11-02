@@ -1,3 +1,7 @@
+.home-page{
+    background-color: #1b1b1b;
+}
+
 .photo {
     position: relative;
     text-align: center;
@@ -60,3 +64,39 @@ background-color: #b6b4b4;
 border: #b6b4b4;
 }
 
+.first-line, .second-line, .third-line, .fourth-line {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:780px) {
+    .first-line, .second-line, .third-line, .fourth-line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-item, .second-item, .third-item, .fourth-item {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first-item {
+        margin: 20px 0 !important;
+    }
+}
+
+.first-item {
+    margin: 80px 0 40px 0;
+}
+
+.second-item {
+    margin-bottom: 40px;
+}
+
+.third-item {
+    margin-bottom: 40px;
+}
+
+.fourth-item {
+    margin-bottom: 80px;
+}
