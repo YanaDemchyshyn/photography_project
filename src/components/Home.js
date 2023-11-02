@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import "./Home.css"
 import main from "./images/main-photo.png"
 import photo1 from "./images/photo1.png"
@@ -13,6 +13,7 @@ import photo9 from "./images/photo9.png"
 import photo10 from "./images/photo10.png"
 import photo11 from "./images/photo11.png"
 import photo12 from "./images/photo12.png"
+import Footer from "./Footer"
 
 export default function Home() {
     return(
@@ -77,6 +78,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
