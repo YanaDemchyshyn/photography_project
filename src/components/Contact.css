@@ -1,0 +1,44 @@
+.Contact {
+    background-color: #1b1b1b;
+    text-align: center;
+}
+
+.contact-info {
+    margin: 60px 0 80px 0;
+}
+
+.contact-title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.4cqmax;
+    padding: 40px 0;
+}
+
+.contact-info .name {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #F65282;
+    letter-spacing: 0.1cqmax;
+    margin: 40px 0 10px 0;
+}
+
+.contact-type {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.1cqmax;
+}
+
+@media (max-width:780px) {
+    .contact-title h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .contact-info {
+        margin-top: 0;
+    }
+}
